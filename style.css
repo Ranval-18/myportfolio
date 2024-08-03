@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section-one {
+    background-color: rgb(17, 17, 17);
+    color: rgb(237, 224, 224);
+    padding: 35px;
+}
+
+body {
+   
+      /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+      
+    }
+    .section-one__contact {
+        background-color: orange;
+        text-decoration: none;
+        display: inline-block;
+        border: solid black 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px;
+    }
+    .section-one__role{
+        font-size:40px;
+        font-weight:bolder;
+    }
+    .section-two,.section-three,.section-four,.section-five{
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+    .section-five{
+        background-color: black;
+        color:white;
+        padding: 20px;
+    }
+    .section-five a{
+        color: chartreuse;
+    }
+   .section-two__desc,.section-three__desc,.section-four__desc,.section-five__title{
+    margin-top: 10px;
+   } 
+   .section-three{
+    height: 150px;
+    /* width: 150px; */
+    background-color: #C0FF7D;
+    color: black;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 20px;
+    vertical-align: top;
+    font-size: large;
+   }
+
+  .section-four{
+  background-color:#FE7518;
+  height: 150px;
+  /* width:250px; */
+  display: inline-block;
+  border-radius: 20px;
+  padding: 20px;
+
+  }
+  .section-three li,.section-four li{
+    list-style: none;
+  }
+.section-two__desc{
+    padding: 10px;
+    font-weight: bolder;
+}
+.contact-form{
+    margin: 30px;
+}
+.contact-form__name,.contact-form__mail,.contact-form__message{
+    margin-top: 10px;
+    border-style: none;
+    
+}
+/* .contact-form__name,.contact-form__mail,.contact-form__message,.contact-form__submit:hover {
+    border: solid rgb(21, 176, 107) 2px;
+} */
+.contact-form__name,.contact-form__mail{
+    border-bottom:solid #FE7518 2px;
+}
+.contact-form__message{
+    border: solid black 2px;
+}
+.contact-form__submit:hover{
+    background-color: black;
+    color: bisque;
+    border: solid red 2px;
+    padding: 5px;
+}
